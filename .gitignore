@@ -10,7 +10,7 @@ data/processed/*
 results/figures/*
 results/tables/*
 *.log
-*.xlsx
+# *.xlsx (Removed to allow uploading CGB data)
 *.csv
 !results/report.md
 !README.md

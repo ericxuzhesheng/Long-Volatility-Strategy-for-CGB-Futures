@@ -10,7 +10,14 @@ This project implements a **long-volatility timing proxy** for CGB Futures (T & 
 | T | 1.71% | 2.02% | -0.14 | 1.92% | 0.89 | 43.34% |
 | TL | 10.06% | 4.95% | 1.63 | 3.38% | 2.98 | 46.32% |
 
-## 3. Visual Analysis
+## 3. Why TL performs better than T?
+The backtest results show that the **30Y CGB Futures (TL)** significantly outperform the **10Y CGB Futures (T)**. Key reasons include:
+1. **Higher Duration Sensitivity**: TL has a much higher modified duration. For the same volatility regime switch (e.g., a sudden change in monetary policy expectations), TL exhibits much larger price swings, providing more "meat" for the long-volatility trend-following logic.
+2. **Regime Switching Clarity**: 30Y bonds are more sensitive to long-term inflation and growth expectations. In 2024, the Chinese bond market experienced several distinct "volatility bursts" (e.g., central bank operations, asset-liability mismatches in rural banks). These bursts were more pronounced and persistent in TL, making them easier to capture.
+3. **Liquidity & Momentum**: TL has become the "darling" of speculative capital and quantitative strategies in recent years. This increased participation leads to stronger momentum effects during volatility expansion, which our strategy is designed to exploit.
+4. **Lower Noise-to-Signal Ratio**: While TL has higher absolute volatility, its volatility expansion signals are often cleaner and less prone to mean-reversion compared to the more crowded 10Y T contract.
+
+## 4. Visual Analysis
 ### 3.1 10Y CGB Futures (T)
 ![NAV T](figures/nav_comparison_T.png)
 ![Drawdown T](figures/drawdown_T.png)
