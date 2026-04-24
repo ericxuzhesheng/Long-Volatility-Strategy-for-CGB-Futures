@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.8+">
   <img src="https://img.shields.io/badge/Asset-CGB%20Futures-F2C94C?style=for-the-badge" alt="CGB Futures">
   <img src="https://img.shields.io/badge/Strategy-Long%20Volatility%20Timing-7AC943?style=for-the-badge" alt="Long Volatility Timing">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT"></a>
 </p>
 
 <a id="zh"></a>
@@ -44,6 +45,16 @@
 | T | 1.71% | 2.02% | -0.14 | 1.92% | 43.34% |
 | TL | 10.06% | 4.95% | 1.63 | 3.38% | 46.32% |
 
+### 5. 文献引用
+本项目在波动率因子的构建及国债期货高频择时逻辑参考了以下文献：
+- 华泰证券-华泰多因子系列之六：华泰单因子测试之波动率类因子 (2017)
+- 兴业证券-高频系列十一——流动性因子全解析：选股，择时与多策略 (2025)
+- Demeterfi, K., Derman, E., Kamal, M., & Zou, J. (1999). *More Than You Ever Wanted to Know About Volatility Swaps*. Goldman Sachs Quantitative Strategies Research Notes.
+- Carr, P., & Wu, L. (2006). *A Tale of Two Indices*. The Journal of Derivatives.
+
+### 6. 开源协议
+本项目基于 [MIT License](LICENSE) 协议。
+
 ---
 
 <a id="en"></a>
@@ -76,6 +87,16 @@ This project is **not** a Delta-neutral long volatility portfolio in the options
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | T | 1.71% | 2.02% | -0.14 | 1.92% | 43.34% |
 | TL | 10.06% | 4.95% | 1.63 | 3.38% | 46.32% |
+
+### 5. References
+This project refers to the following literature for volatility factor construction and CGB futures high-frequency timing:
+- Huatai Securities - Huatai Multi-Factor Series No. 6: Huatai Single Factor Test of Volatility Factors (2017)
+- Industrial Securities - High Frequency Series XI: Comprehensive Analysis of Liquidity Factors: Stock Selection, Timing and Multi-Strategy (2025)
+- Demeterfi, K., Derman, E., Kamal, M., & Zou, J. (1999). *More Than You Ever Wanted to Know About Volatility Swaps*. Goldman Sachs Quantitative Strategies Research Notes.
+- Carr, P., & Wu, L. (2006). *A Tale of Two Indices*. The Journal of Derivatives.
+
+### 6. License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
